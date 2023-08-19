@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="timer-div">
+        <div class="time">
+            <span> {{min}} : </span>
+            <span> {{seconds}} : </span>
+            <span> {{mili}} </span>
+        </div>
+        <div>
+            <button (click)="OnStartStopwatch()" [value]="isStart ? 'Stop' : 'Start'"> {{ isStart ? 'Stop' : 'Start' }} </button>
+            <button (click)="OnResetStopwatch()">Reset</button>
+        </div>
+    </div>
+</div>

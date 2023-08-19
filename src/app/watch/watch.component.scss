@@ -1,0 +1,25 @@
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.timer-div{
+    background-color: rgb(233, 218, 218);
+    height: 200px;
+    width: 200px;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    border-radius: 8px;
+}
+button{
+    padding: 4px 8px;
+    margin: 4px;
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;
+}
